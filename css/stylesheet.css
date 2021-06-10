@@ -1,0 +1,2166 @@
+/*--------------- Imported Fonts --------------- */
+
+
+
+/* Example: @import url('font url here'); */
+
+
+
+/* Default Website Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sigmar+One&display=swap');
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
+
+/* --------- CSS Variables declaration --------- */
+
+
+
+:root {
+
+
+
+	--porcelain: #eff2f2;
+
+
+
+  --sea-curseve: 'East Sea Dokdo', cursive;
+
+
+
+}
+
+
+
+/*  ------------------------------Start of Fonts--------------------------------- */
+
+
+
+      .font1{
+
+        font-family: 'Lora', serif;
+
+      }
+
+
+
+      .font2{
+
+        font-family: 'Roboto Slab', serif;
+
+      }
+
+
+
+      .font3{
+
+        font-family: 'Merriweather', serif;
+
+      }
+
+
+
+      .font4{
+
+        font-family: 'Crimson Text', serif;
+
+      }
+
+
+
+      .font5{
+
+        font-family: 'Balsamiq Sans', cursive;
+
+      }
+
+
+
+      .font6{
+
+        font-family: 'Sarabun', sans-serif;
+
+      }
+
+
+
+      .font7{
+
+        font-family: 'Sniglet', cursive;
+
+      }
+
+      .font8{
+        font-family: 'Reggae One', cursive;
+      }
+
+      .font9{
+        font-family: 'Noto Serif', serif;
+      }
+
+      .font10{
+        font-family: 'Sigmar One', cursive;
+      }
+
+
+
+/*  ------------------------------Start of Fonts--------------------------------- */
+
+
+
+/* ------------------------------Start of Header CSS--------------------------------- */
+
+
+
+/* #navbar, #footerSec{
+
+
+
+	width: 100vw;
+
+
+
+} */
+
+
+
+  #navbar img {
+
+
+
+  width: 55%;
+
+
+
+  height: auto;
+
+
+
+  margin-right: 0px;
+
+
+
+}
+
+
+
+#navbar a {
+
+
+
+  padding-right: 0px;
+
+
+
+  width: 100px;
+
+
+
+}
+
+
+#navbar #tabletandBelow .fixed-top{
+
+  background-color: white;
+
+}
+
+#navbar #tabletandAbove .fixed-top{
+
+  background-color: white;
+
+}
+
+
+
+
+#navbar nav {
+
+
+
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+
+
+
+
+
+
+#navbar nav #navbarToggleExternalContent ul a {
+
+
+
+  transition: 0.4s ease;
+
+
+
+  color: black;
+
+
+
+  font-size: 16px;
+
+
+
+}
+
+
+
+
+
+
+
+#navbar nav #navbarToggleExternalContent ul a:hover {
+
+
+
+  font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+#navbar nav #logregButton {
+
+
+
+  width: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+#navbar nav #logregButton button{
+
+
+
+   background-color: white !important;
+
+
+
+   border-color: white !important;
+
+
+
+   border:none !important;
+
+
+
+   width: 20px !important;
+
+
+
+   margin-right: 100px !important;
+
+
+
+}
+
+
+
+#navbar .dropdown-menu-right a{
+
+    text-decoration-color: none;
+
+    color: black !important;
+
+}
+
+
+
+#navbar #tabletandAbove .dropdown-menu-right {
+
+
+
+    right: 10px;
+
+
+
+    left: auto;
+
+
+
+}
+
+
+
+
+
+/* ------------------------------End of Header CSS--------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------Starting Section of Intro CSS--------------------------------- */
+
+
+#intro {
+
+  padding-top: 80px;
+  
+}
+
+#intro {
+
+
+
+  background-image: url("../images/img1.jpeg");
+
+
+
+	background-size: cover;
+
+
+
+	background-color: rgba(0, 0, 0,0.5);
+
+
+
+	background-blend-mode: overlay;
+
+
+
+	/* color: white; */
+
+
+
+}
+
+
+
+
+
+
+
+#intro .abbr {
+
+
+
+  color: orange;
+
+
+
+  font-size: 90px;
+
+
+
+  font-family: var(--sea-curseve);
+
+
+
+}
+
+
+
+#intro .full{
+
+	color: white;
+
+  font-family: 'Crimson Text', serif;
+
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------Closing Section of Intro CSS--------------------------------- */
+
+
+
+
+
+
+
+/* ------------------------------Section of Event CSS--------------------------------- */
+
+
+
+
+
+
+
+#eventHome .zoom {
+
+	/* background-color: var(--porcelain); */
+
+  transition: transform .2s; /* Animation */
+
+  width: 18rem;
+
+  height: 15% !important;
+
+   box-shadow: -11px 9px 10px -4px rgba(0,0,0,0.61);
+
+  -webkit-box-shadow: -11px 9px 10px -4px rgba(0,0,0,0.61);
+
+  -moz-box-shadow: -11px 9px 10px -4px rgba(0,0,0,0.61);
+
+}
+
+
+
+#eventHome{
+
+  background-color:#e9ecef;
+
+}
+
+
+#eventHome .zoom:hover {
+
+  transform: scale(1.1);
+
+
+
+}
+
+
+
+#eventHome .noevent{
+
+  color: #2d38be;
+
+}
+
+
+
+
+
+
+
+/* ------------------------------End of Event CSS--------------------------------- */
+
+
+
+
+
+
+
+/* -------------------------------CAROUSEL CSS------------------------------------*/
+
+
+
+/* #gallery {
+
+
+
+  padding-top: 80px;
+
+
+
+}
+
+
+
+#gallery img{
+
+
+
+  height:250px;
+
+
+
+} */
+
+
+
+#gallery .owl-carousel .owl-nav {
+
+
+
+  overflow: hidden;
+
+
+
+  height: 0px;
+
+
+
+}
+
+
+
+ #gallery .owl-nav button {
+
+
+
+  position: absolute;
+
+
+
+  top:50%;
+
+
+
+  transform: translateY(-50%);
+
+
+
+}
+
+
+
+#gallery .owl-nav .owl-prev {
+
+
+
+  left: -45px;
+
+
+
+  color: black;
+
+
+
+  background: none !important;
+
+
+
+  size: 10px;
+
+
+
+
+
+
+
+}
+
+
+
+#gallery .owl-nav .owl-next {
+
+
+
+  right: -45px;
+
+
+
+ color: black;
+
+
+
+ background: none !important;
+
+
+
+}
+
+/*
+
+#gallery .owl-nav button:focus {
+
+
+
+  outline: none;
+
+
+
+ }*/
+
+
+
+/* #gallery .center {
+
+
+
+ margin:auto;
+
+
+
+ width:110px;
+
+
+
+ padding-bottom: 20px;
+
+
+
+ padding-top: 10px;
+
+
+
+} */
+
+
+
+
+
+
+
+ /* ------------------------------- END OF CAROUSEL CSS------------------------------------*/
+
+
+
+/* ---------------  Start of Our Team css ----------------------- */
+
+
+
+#teams .images img{
+
+
+
+  width: 65%;
+
+
+
+  height: auto;
+
+
+
+  margin: 20px 0 !important;
+
+
+
+}
+
+
+
+
+
+
+
+/* --------------- Start of Our Team css ------------------------ */
+
+
+
+ /* ------------------------------Conatct css -----------------------------------*/
+
+
+
+
+
+
+
+ #contactHome {
+
+
+
+   background-color: var(--porcelain);
+
+
+
+ }
+
+
+
+#contactHome .desc {
+
+
+
+  font-size: 20px;
+
+
+
+  font-weight: bold;
+
+
+
+}
+
+
+
+ /*-------------------------------END of Contact css ----------------------------*/
+
+
+
+
+
+
+
+ /*---------------------------------Start section of About---------------------------------------------*/
+
+
+
+#about #aboutImage{
+
+
+
+	margin-top: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+ #about #testmonials img{
+
+
+
+	 border-radius: 50%;
+
+
+
+	 margin: 30px;
+
+
+
+ }
+
+
+
+
+
+
+
+ #about #testmonials blockquote{
+
+
+
+		 /* display:block; */
+
+
+
+     background: #fff;
+
+
+
+     padding: 15px 20px 15px 45px;
+
+
+
+     margin: 0 0 20px;
+
+
+
+     position: relative;
+
+
+
+     /*Font*/
+
+
+
+     font-family: Georgia, serif;
+
+
+
+     font-size: 16px;
+
+
+
+     line-height: 1.2;
+
+
+
+     color: #666;
+
+
+
+     text-align: justify;
+
+
+
+  }
+
+
+
+  #about #testmonials blockquote::before{
+
+
+
+     content: "\201C";
+
+
+
+     /*Unicode for Left Double Quote*/
+
+
+
+     /*Font*/
+
+
+
+     font-family: Georgia, serif;
+
+
+
+     font-size: 60px;
+
+
+
+     font-weight: bold;
+
+
+
+     color: #999;
+
+
+
+     /*Positioning*/
+
+
+
+     position: absolute;
+
+
+
+     left: 10px;
+
+
+
+     top:5px;
+
+
+
+  }
+
+
+
+  #about #testmonials blockquote::after{
+
+
+
+      /*Reset to make sure*/
+
+
+
+      content: "";
+
+
+
+  }
+
+
+
+  #about #testmonials blockquote a{
+
+
+
+      text-decoration: none;
+
+
+
+      background: #eee;
+
+
+
+      cursor: pointer;
+
+
+
+      padding: 0 3px;
+
+
+
+      color: #C76C0C;
+
+
+
+  }
+
+
+
+  #about #testmonials blockquote a:hover{
+
+
+
+			color: #666;
+
+
+
+	}
+
+
+
+	#about #testmonials blockquote em{
+
+
+
+		font-style: italic;
+
+
+
+	}
+
+
+
+	#about #testmonials blockquote cite{
+
+
+
+		color: #999999;
+
+
+
+		font-size: 14px;
+
+
+
+		text-align: left;
+
+
+
+		display: block;
+
+
+
+		margin-top: 5px;
+
+
+
+	}
+
+
+
+	#about #testmonials blockquote cite:before {
+
+
+
+		 content: "\2014 \2009";
+
+
+
+	}
+
+
+
+ /*---------------------------------end section of About---------------------------------------------*/
+
+
+
+ 
+
+ /*-----------------------Start of Project Display CSS-------------------*/
+
+ #project_display .container
+
+ {
+
+   margin-top: 5%;
+
+   margin-bottom: 5%;
+
+ }
+
+ #project_display .card
+
+ {
+
+   width: 20rem;
+
+   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+
+ }
+
+ #project_display .card:hover
+
+ {
+
+   transform: scale(1.05);
+
+   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+ }
+
+ 
+
+ #project_display .unavailable
+
+ {
+
+ padding-bottom: 12rem;
+
+ font-weight: bold;  
+
+ }
+
+
+
+/*--------------------End of Project Display CSS------------------------*/
+
+
+
+ /*-------------------------Start of Member Registration form-----------------------*/
+
+
+
+/*Add Animation to Caption*/
+
+
+
+ #memberRegister #caption {
+
+
+
+  -webkit-animation-name: zoom;
+
+
+
+  -webkit-animation-duration: 0.6s;
+
+
+
+  animation-name: zoom;
+
+
+
+  animation-duration: 0.6s;
+
+
+
+  margin: auto;
+
+
+
+  width: 80%;
+
+
+
+  max-width: 700px;
+
+
+
+  text-align: center;
+
+
+
+  color: #ccc;
+
+
+
+  padding: 10px 0;
+
+
+
+  height: 150px;
+
+
+
+}
+
+
+
+
+
+
+
+@-webkit-keyframes zoom {
+
+
+
+  from {-webkit-transform:scale(0)}
+
+
+
+  to {-webkit-transform:scale(1)}
+
+
+
+}
+
+
+
+
+
+
+
+@keyframes zoom {
+
+
+
+  from {transform:scale(0)}
+
+
+
+  to {transform:scale(1)}
+
+
+
+}
+
+
+
+
+
+
+
+#memberRegister #GITAM{
+
+
+
+  color: grey;
+
+
+
+  font-size: 13px;
+
+
+
+}
+
+
+
+#memberRegister #form sup{
+
+
+
+  color: red;
+
+
+
+}
+
+
+
+
+
+
+
+/*-------------------------End of Member Registration form-----------------------*/
+
+
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+
+
+
+
+
+
+#login_box .main{
+
+
+
+  margin: 100px auto;
+
+
+
+  background-color: #eff2f2;
+
+
+
+}
+
+
+
+
+
+
+
+#login_box small{
+
+
+
+  color: #067a7a;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+
+
+
+
+
+
+/*-------------------------------START OF OUR TEAM SECTION CSS-------------------------------*/
+
+
+
+
+#album {
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+ #album .item {
+  margin-bottom: 30px;
+  margin-top : 30px;
+}
+
+ #album .item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+#album .item .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(221, 224, 226, 0.75);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 200px;
+  color:black;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
+
+#album .item:hover .cover {
+  opacity: 1
+}
+
+
+
+/*-----------------------------END OF OUR TEAM SECTION CSS--------------------------------*/
+
+
+
+/*-------------------------------Start of Team recruit page CSS-----------------------------*/
+
+
+
+#team_recruit .main{
+
+
+
+  color: black;
+
+
+
+  font-size: 14px;
+
+
+
+  background-color: #eff2f2;
+
+
+
+}
+
+
+
+
+
+
+
+#team_recruit .desc{
+
+
+
+  color: gray;
+
+
+
+}
+
+
+
+/*-------------------------------END of Team recruit page CSS-----------------------------*/
+
+
+
+
+
+
+
+/* ------------------------------Start of Contact page CSS--------------------------------- */
+
+
+
+
+
+
+
+#contact_page .main{
+
+
+
+  margin: 100px auto;
+
+
+
+  background-color: var(--porcelain);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------Start of Contact page CSS--------------------------------- */
+
+
+
+
+
+
+
+/*------------------------------------Event page--------------------------------------------------*/
+
+#eventPage{
+
+  height: 100%;
+
+}
+
+
+
+#eventPage .images img{
+
+
+
+  width: 65%;
+
+
+
+  height: auto;
+
+
+
+  margin: 20px 0 !important;
+
+
+
+}
+
+
+
+
+
+
+
+#eventPage #event_reg_btn{
+
+
+
+  background-color: #d8dbdbfd;
+
+
+
+  font-size: larger;
+
+
+
+  padding: auto 20px;
+
+
+
+  font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+#eventPage #event_reg_btn:hover{
+
+
+
+  background-color: #b4b4b4fd;
+
+
+
+}
+
+#eventPage{
+
+    margin-top: 50px;
+
+    margin-bottom: 125px;
+
+}
+
+
+#eventPage #reg_custombox{
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 2px;
+  color: white;
+   width:200px;
+  
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------End of Event page--------------------------------------------------*/
+
+
+
+/* ------------------------------Start of Project page CSS--------------------------------- */
+
+
+
+
+
+
+
+#single_project .main{
+
+
+
+  margin: 100px auto;
+
+
+
+  background-color: var(--porcelain);
+
+
+
+  padding: 40px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------Start of Project page CSS--------------------------------- */
+
+
+
+
+
+
+
+/*-----------------Start of Certificate validation------------------------*/
+
+
+
+#certificates .main {
+
+
+
+	margin: 100px auto;
+
+
+
+}
+
+
+
+
+
+
+
+#certificates .card {
+
+
+
+  width: 30rem;
+
+
+
+	background-color: var(--porcelain) !important;
+
+
+
+  margin:auto;
+
+
+
+}
+
+
+
+
+
+
+
+#certificates .valid {
+
+
+
+  color:green;
+
+
+
+}
+
+
+
+#certificates .invalid {
+
+
+
+  color:red;
+
+
+
+}
+
+
+
+#certificates .tbl {
+
+
+
+  border-collapse: separate;
+
+
+
+  border-spacing: 10px 2px;
+
+
+
+}
+
+
+
+#certificates td {
+
+
+
+  color: gray;
+
+
+
+}
+
+
+
+
+
+
+
+/*-----------------End of Certificate validation------------------------*/
+
+
+
+
+
+
+
+/* ------------------------------Start of Fotter CSS--------------------------------- */
+
+
+
+#navbar, #footerSec{
+
+
+
+	width: 100%;
+
+
+
+}
+
+
+
+#footerSec{
+
+
+
+  background-color: var(--porcelain);
+
+
+
+  /* vertical-align: middle; */
+
+
+
+  padding-top: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .smallEle{
+
+
+
+  text-align: center;
+
+
+
+  padding-top: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .smallEle a{
+
+
+
+  color: black;
+
+
+
+  font-size: 19px;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .smallEle a:hover{
+
+
+
+  color: rgb(41, 13, 13);
+
+
+
+  transition:0.3s ease;
+
+
+
+  font-size: 20px;
+
+
+
+  text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .footer-brand img{
+
+
+
+  width: 50px;
+
+
+
+  height: auto;
+
+
+
+  padding-bottom: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.footer_head{
+
+
+
+  text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec hr.foot_sep_line {
+
+
+
+    overflow: visible;
+
+
+
+    padding: 0;
+
+
+
+    border: none;
+
+
+
+    border-top: medium double #333;
+
+
+
+    color: #333;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec hr.foot_sep_line:after {
+
+
+
+    font-family: 'Play', sans-serif;
+
+
+
+    content: "GUSAC";
+
+
+
+    display: inline-block;
+
+
+
+    position: relative;
+
+
+
+    top: -0.9em;
+
+
+
+    font-size: 1.3em;
+
+
+
+    padding: 0 0.25em;
+
+
+
+    background-color: #eff2f2;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .fa-instagram{
+
+
+
+  color: #cc187a;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .fa-facebook-square{
+
+
+
+  color: 	#4267B2;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .fa-youtube{
+
+
+
+    color: #FF0000;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .fa-linkedin{
+
+
+
+    color: #2867B2 ;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .footer_head span{
+
+
+
+   font-size: 20px;
+
+
+
+   padding-right: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#footerSec .fa-instagram:hover,
+
+
+
+#footerSec .fa-facebook-square:hover,
+
+
+
+#footerSec .fa-youtube:hover,
+
+
+
+#footerSec .fa-linkedin:hover{
+
+
+
+  cursor: pointer;
+
+
+
+  transition: 0.2s ease;
+
+
+
+  font-size: 25px;
+
+
+
+	color: #a3d2e3;
+
+
+
+}
+
+
+
+/* ------------------------------End of Fotter CSS--------------------------------- */
+
+
+
+
+
+
+
+/* -----------------------Start of Project form CSS -------------------*/
+
+
+
+#projectForm{
+
+
+
+  -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.12);
+
+
+
+  -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.12);
+
+
+
+   box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.12);
+
+
+
+}
+
+
+
+#projectForm #errorTeamExist{
+
+
+
+  display: none;
+
+
+
+  color:red;
+
+
+
+}
+
+
+
+#projectForm input{
+
+
+
+  margin-bottom: 10px;
+
+
+
+}
+
+
+
+#projectForm label,
+
+#projectForm p{
+
+
+
+  color: gray;
+
+
+
+}
+
+
+
+#projectForm sup
+
+
+
+{
+
+
+
+   color: red;
+
+
+
+   font-weight: bold;
+
+
+
+}
+
+
+
+/* -----------------------End of Project form CSS -------------------*/
+
+
+
+/*------------------------------Profile page css------------------*/
+
+/*Modal preview */
+#profilePage .profile_pic_preview {
+        overflow: hidden;
+        border-radius: 50%;
+        width: 200px; 
+        height: 200px;
+        margin: 10px;
+        border: 1px solid grey;
+    }
+#profilePage #profile_pic_modal.image_area {
+      position: relative;
+    }
+
+#profilePage #profile_pic_modal img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+
+#profilePage .cropper-crop-box, .cropper-view-box {
+  border-radius: 50%;
+
+  height: 250px !important;
+}
+
+#profilePage .profile-pic {
+    max-width: 300px;
+    /*max-height: 300px;*/
+    display: block;
+}
+
+#profilePage .file-upload {
+    display: none;
+}
+#profilePage .circle {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 126px;
+    border: 5px solid #d1cece;
+    /*position: absolute;
+    top: 72px;*/
+}
+
+#profilePage .circular--portrait {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#profilePage .circular--portrait img {
+   max-width: 100%;
+  height: auto;
+}
+/*#profilePage img {
+    max-width: 100%;
+    height: 100%;
+}*/
+#profilePage .p-image {
+  position: absolute;
+  top: 100px;
+  right: 88px;
+  color: #5b5b5b;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+#profilePage .p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+#profilePage .upload-button {
+  font-size: 1.2em;
+}
+
+#profilePage .upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+
+#profilePage .customBox{
+  /*width: 300px;*/
+  border: 2px solid #6b96a3;
+  background-color:#6b96a3;
+  padding: 5px 20px;
+  /*margin: 20px;*/
+  border-radius: 40rem!important;
+  text-align: center!important;
+  color: white;
+}
+#profilePage #teamDetails h6 {
+  display: inline;
+}
+#profilePage #profSave{
+  width: 100px; 
+  display: none;
+}
+#profilePage #profilePic_prjt_details{
+box-shadow: -5px 2px 7px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -5px 2px 7px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 2px 7px -1px rgba(0,0,0,0.75);
+}
+
+/*------------------------------end  Profile page css------------------

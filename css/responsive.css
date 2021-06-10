@@ -1,0 +1,235 @@
+/* ------------------ This File is for Media Query Only ------------------ */
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and below) */
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+
+
+  #memberRegister .hide_responsive{
+
+
+
+    display : none;
+
+
+
+  }
+
+ 
+}
+
+
+
+/* large devices (768px and Above) */
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+
+
+	#navbar #tabletandBelow{
+
+
+
+		display: none;
+
+
+
+	}
+
+
+
+	#navbar #tabletandAbove{
+
+
+
+		display: inline;
+
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and below) */
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and below) */
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+
+
+  #navbar #tabletandBelow{
+
+
+
+  display: inline;
+
+
+
+	}
+
+
+
+	#navbar #tabletandAbove{
+
+
+
+	  display: none;
+
+
+
+	}
+
+	/*Profile page image*/
+
+	#profilePage #bioImgCard{
+
+		display: flex;
+
+		justify-content: center !important;
+
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and below) */
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+
+
+	#eventHome .card{
+
+
+
+		margin-top: 2%;
+
+
+
+	}
+
+
+
+}
+
+
+
