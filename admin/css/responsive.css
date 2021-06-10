@@ -1,0 +1,92 @@
+/* ------------------ This File is for Media Query Only ------------------ */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and below) */
+
+
+
+@media (max-width: 576px) {
+
+
+
+}
+
+
+
+/* Medium devices (tablets, 768px and below) */
+
+
+
+@media (max-width: 768px) {
+
+#messages #content h6{
+	 display: block;
+	}
+
+
+}
+
+@media(min-width: 768px){
+	#messages #content h6{
+	 display: inline;
+
+	}
+	#messages #content #messageTime{
+		display: inline-flex;
+		justify-content: flex-end;
+	}
+}
+
+
+
+/* Large devices (desktops, 992px and below) */
+
+
+
+@media (max-width: 992px) {
+
+
+
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and below) */
+
+
+
+@media (max-width: 1200px) {
+    #eventform {
+
+        margin: 5% 5% 5% 5%  !important;
+      
+      }
+
+
+}
+

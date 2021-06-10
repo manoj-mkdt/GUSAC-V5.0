@@ -1,0 +1,1172 @@
+/* --------------- Imported Fonts --------------- */
+
+/* Example: @import url('font url here'); */
+
+
+
+/* Default Website Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sigmar+One&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+/* --------- CSS Variables declaration --------- */
+
+:root {
+
+	--porcelain: #eff2f2;
+
+  --sea-curseve: 'East Sea Dokdo', cursive;
+
+}
+
+
+
+/*  ------------------------------Start of Fonts--------------------------------- */
+
+
+
+.font1{
+
+  font-family: 'Lora', serif;
+
+}
+
+
+
+.font2{
+
+  font-family: 'Roboto Slab', serif;
+
+}
+
+
+
+.font3{
+
+  font-family: 'Merriweather', serif;
+
+}
+
+
+
+.font4{
+
+  font-family: 'Crimson Text', serif;
+
+}
+
+
+
+.font5{
+
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+
+
+.font6{
+
+  font-family: 'Sarabun', sans-serif;
+
+}
+
+
+
+.font7{
+
+  font-family: 'Sniglet', cursive;
+
+}
+
+.font8{
+  font-family: 'Reggae One', cursive;
+}
+
+.font9{
+  font-family: 'Noto Serif', serif;
+}
+
+.font10{
+  font-family: 'Sigmar One', cursive;
+}
+
+
+
+/*  ------------------------------Start of Fonts--------------------------------- */
+
+
+
+/* ------------------------------Start of Header CSS--------------------------------- */
+
+
+
+  #navbar img{
+
+  width: 55%;
+
+  height: auto;
+
+  margin-right: 0px;
+
+}
+
+#navbar a{
+
+  padding-right: 0px;
+
+  width: 100px;
+
+}
+
+
+
+#navbar nav{
+
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+#navbar nav #navbarToggleExternalContent ul a {
+
+  transition: 0.4s ease;
+
+  color: black;
+
+  font-size: 16px;
+
+}
+
+
+
+#navbar nav #navbarToggleExternalContent ul a:hover {
+
+  font-size: 20px;
+
+}
+
+
+
+#navbar nav #logregButton button{
+
+  width: 100px;
+
+  margin-right: 15px;
+
+}
+
+
+
+/* ------------------------------End of Header CSS--------------------------------- */
+
+
+
+/* ------------------------------Starting Section of Intro CSS--------------------------------- */
+
+#Intro{
+
+  background-image: url(c);
+
+	background-size: cover;
+
+	background-color: rgba(0, 0, 0,0.5);
+
+	background-blend-mode: overlay;
+
+	/* color: white; */
+
+}
+
+
+
+#Intro .abbr{
+
+  color: orange;
+
+  font-size: 90px;
+
+  font-family: var(--sea-curseve);
+
+}
+
+
+
+
+
+/* ------------------------------Closing Section of Intro CSS--------------------------------- */
+
+
+
+/* ------------------------------Section of Event CSS--------------------------------- */
+
+
+
+#Event img{
+
+  width: 90%;
+
+  height: auto;
+
+  cursor: pointer;
+
+}
+
+
+
+#Event p{
+
+  font-size: 25px;
+
+}
+
+
+
+#eventSecond .zoom {
+
+  transition: transform .2s; /* Animation */
+
+  width: 18rem;
+
+}
+
+
+
+#eventSecond .zoom:hover {
+
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+
+
+}
+
+
+
+/* ------------------------------End of Event CSS--------------------------------- */
+
+
+
+/* -------------------------------CAROUSEL CSS------------------------------------*/
+
+#gallery {
+
+  padding-top: 80px;
+
+}
+
+#gallery img{
+
+  height:250px;
+
+}
+
+#gallery .owl-carousel .owl-nav {
+
+  overflow: hidden;
+
+  height: 0px;
+
+}
+
+ #gallery .owl-nav button {
+
+  position: absolute;
+
+  top:50%;
+
+  transform: translateY(-50%);
+
+}
+
+#gallery .owl-nav .owl-prev {
+
+  left: -45px;
+
+  color: black;
+
+  background: none !important;
+
+  size: 10px;
+
+
+
+}
+
+#gallery .owl-nav .owl-next {
+
+  right: -45px;
+
+ color: black;
+
+ background: none !important;
+
+}
+
+#gallery .owl-nav button:focus {
+
+  outline: none;
+
+ }
+
+#gallery .center {
+
+ margin:auto;
+
+ width:110px;
+
+ padding-bottom: 20px;
+
+ padding-top: 10px;
+
+}
+
+
+
+ /* ------------------------------- END OF CAROUSEL CSS------------------------------------*/
+
+/* ---------------  Start of Our Team css ----------------------- */
+
+#teams .images img{
+
+  width: 65%;
+
+  height: auto;
+
+  margin: 20px 0 !important;
+
+}
+
+
+
+/* --------------- Start of Our Team css ------------------------ */
+
+#memberLogin #caption{
+
+  margin: auto;
+
+  width: 80%;
+
+  max-width: 700px;
+
+  text-align: center;
+
+  color: #ccc;
+
+  padding: 10px 0;
+
+  height: 150px;
+
+}
+
+ /* ------------------------------Conatct css -----------------------------------*/
+
+
+
+ #contact
+
+ {
+
+   background-color:rgb(235, 235, 235);
+
+
+
+ }
+
+#contact .desc
+
+{
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+}
+
+ /*-------------------------------END of Contact css ----------------------------*/
+
+
+
+
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+
+
+#login_box .main{
+
+  margin: 100px auto;
+
+  background-color: #eff2f2;
+
+}
+
+
+
+#login_box small{
+
+  color: #067a7a;
+
+}
+
+
+
+
+
+/* ------------------------------Start of Login page CSS--------------------------------- */
+
+/*-------------------------------Start of Team recruit page CSS-----------------------------*/
+
+#team_recruit .main{
+
+  color: black;
+
+  font-size: 14px;
+
+  background-color: #eff2f2;
+
+}
+
+
+
+#team_recruit .desc{
+
+  color: gray; 
+
+}
+
+/*-------------------------------END of Team recruit page CSS-----------------------------*/
+
+
+
+/* ------------------------------Start of Contact page CSS--------------------------------- */
+
+
+
+#contact_page .main{
+
+  margin: 100px auto;
+
+  background-color: var(--porcelain);
+
+}
+
+
+
+
+
+/* ------------------------------Start of Contact page CSS--------------------------------- */
+
+
+
+/*-----------------------------Start Event form------------------------------------*/
+
+
+
+
+
+
+
+#eventform {
+
+
+
+  margin: 5% 20% 5% 20%;
+
+
+
+}
+
+
+
+#eventform .center {
+
+
+
+ margin:auto;
+
+
+
+ width:110px;
+
+
+
+}
+
+
+
+#eventform .form-group {
+
+
+
+font-size: large;
+
+
+
+}
+
+
+
+#eventform .form1 {
+
+
+
+ padding: 30px;
+
+
+
+}
+
+
+
+#eventform .req {
+
+
+
+  color: red;
+
+
+
+}
+
+
+
+/*--------------------------End of Event Form----------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------Event page--------------------------------------------------*/
+
+#EventPage .images img{
+
+  width: 65%;
+
+  height: auto;
+
+  margin: 20px 0 !important;
+
+}
+
+/*------------------------------------End of Event page--------------------------------------------------*/
+
+
+
+/* ------------------------------Start of Fotter CSS--------------------------------- */
+
+
+
+#footerSec{
+
+  background-color: var(--porcelain);
+
+  vertical-align: middle;
+
+  width: 99%;
+
+  padding-top: 5px;
+
+}
+
+
+
+#footerSec .smallEle{
+
+  text-align: center;
+
+  padding-top: 15px;
+
+}
+
+
+
+#footerSec .smallEle a{
+
+  color: black;
+
+  font-size: 19px;
+
+}
+
+
+
+#footerSec .smallEle a:hover{
+
+  color: rgb(41, 13, 13);
+
+  transition:0.3s ease;
+
+  font-size: 20px;
+
+  text-decoration: underline;
+
+}
+
+
+
+#footerSec .footer-brand img{
+
+  width: 50px;
+
+  height: auto;
+
+  padding-bottom: 5px;
+
+}
+
+
+
+.footer_head{
+
+  text-align: center;
+
+}
+
+
+
+#footerSec hr.foot_sep_line {
+
+    overflow: visible;
+
+    padding: 0;
+
+    border: none;
+
+    border-top: medium double #333;
+
+    color: #333;
+
+    text-align: center;
+
+}
+
+
+
+#footerSec hr.foot_sep_line:after {
+
+    font-family: 'Play', sans-serif;
+
+    content: "GUSAC";
+
+    display: inline-block;
+
+    position: relative;
+
+    top: -0.9em;
+
+    font-size: 1.3em;
+
+    padding: 0 0.25em;
+
+    background-color: #eff2f2;
+
+}
+
+
+
+#footerSec .fa-instagram{
+
+  color: #cc187a;
+
+}
+
+
+
+#footerSec .fa-facebook-square{
+
+  color: 	#4267B2;
+
+}
+
+
+
+#footerSec .fa-youtube{
+
+    color: #FF0000;
+
+}
+
+
+
+#footerSec .fa-linkedin{
+
+    color: #2867B2 ;
+
+}
+
+
+
+#footerSec .footer_head span{
+
+   font-size: 20px;
+
+   padding-right: 10px;
+
+}
+
+
+
+#footerSec .fa-instagram:hover,
+
+#footerSec .fa-facebook-square:hover,
+
+#footerSec .fa-youtube:hover,
+
+#footerSec .fa-linkedin:hover{
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  font-size: 25px;
+
+	color: #a3d2e3;
+
+}
+
+
+
+
+
+/*-------------------------Start of Member Registration form-----------------------*/
+
+/*Add Animation to Caption*/
+
+ #memberRegister #caption {  
+
+  -webkit-animation-name: zoom;
+
+  -webkit-animation-duration: 0.6s;
+
+  animation-name: zoom;
+
+  animation-duration: 0.6s;
+
+  margin: auto;
+
+ 
+
+  width: 80%;
+
+  max-width: 700px;
+
+  text-align: center;
+
+  color: #ccc;
+
+  padding: 10px 0;
+
+  height: 150px;
+
+}
+
+
+
+@-webkit-keyframes zoom {
+
+  from {-webkit-transform:scale(0)} 
+
+  to {-webkit-transform:scale(1)}
+
+}
+
+
+
+@keyframes zoom {
+
+  from {transform:scale(0)} 
+
+  to {transform:scale(1)}
+
+}
+
+
+
+
+
+#memberRegister #GITAM{
+
+  color: grey;
+
+  font-size: 13px;
+
+}
+
+#memberRegister #form sup{
+
+  color: red;
+
+}
+
+
+
+/*-------------------------End of Member Registration form-----------------------*/
+
+
+
+/*---------------------------------Start section of About---------------------------------------------*/
+
+#About #Missionimage img{  
+
+  border-radius: 50%; 
+
+  width: 60%; 
+
+  height: auto; 
+
+  margin: 0px 30px  
+
+}
+
+  blockquote{  display:block;
+
+    background: #fff;
+
+    padding: 15px 20px 15px 45px;
+
+    margin: 0 0 20px;
+
+    position: relative;   
+
+   
+
+    font-family: Georgia, serif;  
+
+    font-size: 16px;  
+
+    line-height: 1.2;  
+
+    color: #666;  
+
+    text-align: justify;  
+
+    }  
+
+  blockquote::before{  
+
+    content: "\201C"; 
+
+   
+
+    font-family: Georgia, serif;  
+
+    font-size: 60px;  
+
+    font-weight: bold;  
+
+    color: #999;   
+
+  
+
+    position: absolute;  
+
+    left: 10px;  
+
+    top:5px; 
+
+    }  
+
+    blockquote::after{  
+
+    
+
+      content: ""; 
+
+      }  
+
+      blockquote a{  
+
+        text-decoration: none;  
+
+        background: #eee;  
+
+        cursor: pointer;  
+
+        padding: 0 3px;  
+
+        color: #C76C0C; }  
+
+        blockquote a:hover{  color: #666; }  blockquote em{  font-style: italic; } blockquote cite { color: #999999; font-size: 14px; display: block; margin-top: 5px; }  blockquote cite:before { content: "\2014 \2009"; }
+
+/*blockquote::before {
+
+  content: open-quote;
+
+}
+
+blockquote {
+
+  quotes: "“";
+
+  size: 60%;
+
+}*/
+
+/*---------------------------------end section of About---------------------------------------------*/*/
+
+
+
+/*------------------------------START OF EVENT PAGE CSS-------------------------------*/
+
+
+
+#event_page #eventname{
+
+  color: black;
+
+}
+
+
+
+
+
+/*--------------------------------END OF EVENT CSS--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------End of Fotter CSS--------------------------------- */
+
+
+
+.content{
+
+  width: 100%;
+
+  height: 100vh;
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------Start of Messages--------------------------------------------*/
+
+#messages .card {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  transition: 0.3s;
+
+  width: 80%;
+
+  /*height: 80%;*/
+
+  border-radius: 5px;
+
+  margin: auto;
+
+}
+
+
+
+#messages .card:hover {
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+
+
+
+
+#messages .container {
+
+  padding: 2px 16px;
+
+}
+
+
+
+
+
+#messages #content span{
+
+  color: grey;
+
+}
+
+#messages #content a:hover {
+
+  color: black;
+
+  cursor: pointer;
+
+}
+
+#messages #content a{
+
+  color: grey;
+
+}
+
+#messages #content #mail{
+
+  color: grey;
+
+}
+
+
+
+/*-------------------------------End of Messages---------------------------*/
+
+/* ------------------------------Start of Team Recruit Admine Pannel CSS--------------------------------- */
+
+#team_recruit_admin .table{
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-collapse: collapse;
+
+  width: 100%;
+
+}
+
+
+
+#team_recruit_admin td, #team_recruit_admin th {
+
+  border: 1px solid #ddd;
+
+  padding: 8px;
+
+}
+
+
+
+#team_recruit_admin  tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#team_recruit_admin tr:hover {background-color: #ddd;}
+
+
+
+#team_recruit_admin th{
+
+  padding-top: 12px;
+
+  padding-bottom: 12px;
+
+  text-align: left;
+
+  background-color: #ffffff;
+
+  color: black;
+
+}
+
+#team_recruit_admin button{
+
+  margin: 5px;
+
+}
+
+
+
+#team_recruit_admin .size{
+
+  width: 10%;
+
+}
+
+
+
+#team_recruit_admin .res{
+
+ margin-right: 50px;
+
+ margin-bottom: 10px;
+
+}
+
+#team_recruit_admin .tablemr{
+
+  margin-left: 50px;
+
+  margin-right: 50px;
+
+}
+#team_recruit_admin .chosbtn{
+  
+  padding-left: 45px;
+}
+
+/* ------------------------------End of Team Recruit Admine Pannel CSS--------------------------------- */
+/* ------------------------------Start of Project Admine Pannel CSS--------------------------------- */
+#project_admin .table{
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#project_admin td, #project_admin th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#project_admin  tr:nth-child(even){background-color: #f2f2f2;}
+
+#project_admin tr:hover {background-color: #ddd;}
+
+#project_admin th{
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #ffffff;
+color: black;
+}
+#project_admin button{
+margin: 5px;
+}
+#project_admin .size{
+width: 218px;
+}
+#project_admin .res{
+margin-right: 50px;
+margin-bottom: 10px;
+}
+#project_admin .tablemr{
+margin-left: 50px;
+margin-right: 50px;
+}
+
+  /* ------------------------------End of Project Admine Pannel CSS--------------------------------- */

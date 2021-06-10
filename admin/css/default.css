@@ -1,0 +1,340 @@
+/* --------------- Imported Fonts --------------- */
+
+
+
+/* Example: @import url('font url here'); */
+
+
+
+
+
+/*----------------------------Imported Buttons-----------------------*/
+
+/*--------------- Start of Yellow Rounded Corners CSS ------------------*/
+
+        .yellow-regular{
+
+          width:120px;
+
+          height: 40px;
+
+          background-color: #f5bc14;
+
+          border: none;
+
+          color: black;
+
+          outline:none !important;
+
+          /*padding: 10px 15px;*/
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          margin: 4px 2px;
+
+          border-radius: 4px;
+
+        }
+
+        .yellow-regular:hover{
+
+          width:120px;         
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#ffc107;
+
+        }
+
+/*--------------- End of Yellow Rounded Corners CSS -------------------*/
+
+/*--------------- Start of Yellow Pill Corners CSS --------------------*/
+
+        .yellow-pill{
+
+          width: 85px;
+
+          height: 40px;
+
+          background-color: #f5bc14;
+
+          border: none;
+
+          color: black;
+
+          outline:none !important;
+
+          /*padding: 8px 14px;
+*/
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          /*margin: 4px 2px;*/
+
+          border-radius: 25px;
+
+        }
+
+        .yellow-pill:hover{
+
+          width:85px;          
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#ffc107;
+
+        }
+
+/*--------------- Start of Yellow Pill Corners CSS --------------------*/
+
+/*--------------- Start of Orange Rounded Corners CSS ------------------*/
+
+        .orange-regular{
+
+          width: 85px;
+
+          height: 40px;
+
+          background-color: #f2792e;
+
+          border: none;
+
+          color: black;
+
+          outline:none !important;
+
+          /*padding: 10px 15px;*/
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          /*margin: 2px 2px;*/
+
+          border-radius: 4px;
+
+        }
+
+        .orange-regular:hover{
+
+          width:85px;          
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#fc6203;
+
+        }
+
+/*--------------- End of Orange Rounded Corners CSS -------------------*/
+
+/*--------------- Start of Orange Pill Corners CSS --------------------*/
+
+        .orange-pill{
+
+          width: 85px;
+
+          height: 40px;
+
+          background-color: #f2792e;
+
+          border: none;
+
+          color: black;
+
+          outline:none !important;
+
+          /*padding: 8px 14px;*/
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          /*margin: 4px 2px;*/
+
+          border-radius: 25px;
+
+        }
+
+        .orange-pill:hover{
+
+          width:85px;          
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#fc6203;
+
+        }
+
+/*--------------- Start of Orange Pill Corners CSS --------------------*/
+
+/*--------------- Start of Gray Rounded Corners CSS -------------------*/
+
+        .gray-regular{
+
+          width: 85px;
+
+          height: 40px;
+
+          background-color: #e6e6e6;
+
+          border: none;
+
+          color: black;
+
+          outline:none !important;
+
+          /*padding: 6px 8px;*/
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          /*margin: 2px 2px;*/
+
+          border-radius: 4px;
+
+        }
+
+        .gray-regular:hover{
+
+          width:85px;          
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#bdbdbd;
+
+        }
+
+/*--------------- End of Gray Rounded Corners CSS -------------------- */
+
+/*--------------- Start of Gray Rectangle Corners CSS ---------------- */
+
+        .gray-rectange{
+
+          width: 85px;
+
+          height: 40px;
+
+          background-color: #e6e6e6;
+
+          border: none;
+
+          outline:none !important;
+
+          color: black;
+
+          /*padding: 8px 10px;*/
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 15px;
+
+          /*margin: 4px 2px;
+*/
+        }
+
+        .gray-rectange:hover{
+
+          width:85px;          
+
+          cursor: pointer;
+
+          transition: 0.2s ease;
+
+          font-size: 16px;
+
+          background-color:#bdbdbd;
+
+        }
+
+/*--------------- End of Gray Rectangle Corners CSS ------------------ */
+
+
+
+/*-----------------------End of Imported Buttons-------------------------------*/
+
+
+
+*{
+
+
+
+    margin: 0;
+
+
+
+    padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
+a,a:hover{
+
+
+
+    text-decoration: none;
+
+
+
+
+
+
+
+}
+
+
+
